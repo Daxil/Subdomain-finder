@@ -1,0 +1,147 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1780049810728,
+  "projectRoot": "/home/kali/Рабочий стол/pentest progect /recon_pipline",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "requirements.txt"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pip",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": "snake_case",
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "app"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "app": {
+      "path": "app",
+      "purpose": "Application code",
+      "fileCount": 5,
+      "lastAccessed": 1780049810717,
+      "keyFiles": [
+        "__init__.py",
+        "celery_app.py",
+        "config.py",
+        "database.py",
+        "models.py"
+      ]
+    },
+    "venv": {
+      "path": "venv",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1780049810718,
+      "keyFiles": [
+        "pyvenv.cfg"
+      ]
+    },
+    "venv/bin": {
+      "path": "venv/bin",
+      "purpose": "Executable scripts",
+      "fileCount": 9,
+      "lastAccessed": 1780049810727,
+      "keyFiles": [
+        "Activate.ps1",
+        "activate",
+        "activate.csh"
+      ]
+    },
+    "venv/lib": {
+      "path": "venv/lib",
+      "purpose": "Library code",
+      "fileCount": 0,
+      "lastAccessed": 1780049810728,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "README.md",
+      "accessCount": 2,
+      "lastAccessed": 1780050054792,
+      "type": "file"
+    },
+    {
+      "path": "docker-compose.yml",
+      "accessCount": 1,
+      "lastAccessed": 1780049864396,
+      "type": "file"
+    },
+    {
+      "path": ".env.example",
+      "accessCount": 1,
+      "lastAccessed": 1780049869481,
+      "type": "file"
+    },
+    {
+      "path": "requirements.txt",
+      "accessCount": 1,
+      "lastAccessed": 1780049870192,
+      "type": "file"
+    },
+    {
+      "path": "app/workers/subdomain.py",
+      "accessCount": 1,
+      "lastAccessed": 1780049870664,
+      "type": "file"
+    },
+    {
+      "path": "app/tasks/recon.py",
+      "accessCount": 1,
+      "lastAccessed": 1780049870843,
+      "type": "file"
+    },
+    {
+      "path": "check_db.py",
+      "accessCount": 1,
+      "lastAccessed": 1780049925607,
+      "type": "file"
+    },
+    {
+      "path": "app/models.py",
+      "accessCount": 1,
+      "lastAccessed": 1780049926141,
+      "type": "file"
+    },
+    {
+      "path": "trigger_scan.py",
+      "accessCount": 1,
+      "lastAccessed": 1780049926319,
+      "type": "file"
+    },
+    {
+      "path": "run.py",
+      "accessCount": 1,
+      "lastAccessed": 1780049926516,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
